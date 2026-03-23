@@ -23,4 +23,4 @@ jobs:
           context: .
           push: true
           # ICI : on ajoute docker.io/ devant pour être sûr
-          tags: docker.io/bouzekraouiyoussef/flask-app:latest
+          tags: docker.io/youssefbouz/flask-app:latest
