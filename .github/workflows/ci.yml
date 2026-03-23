@@ -20,6 +20,7 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v5
         with:
+          context: .
           push: true
-          # Remplace 'ton_pseudo' par ton vrai pseudo Docker ci-dessous
-          tags: bouzekraouiYoussef/flask-app:latest
+          # ICI : on ajoute docker.io/ devant pour être sûr
+          tags: docker.io/bouzekraouiyoussef/flask-app:latest
